@@ -4,7 +4,7 @@ There are N number of flat images and line drawing. For each flat, there are sha
 
 Paper link (Will be updated soon)
 
-The original dataset to train the AI models has been collected from the professionals of a single company who made shadows dedicated to this project. After S1, they first prepared 1,000 existing flat-colored line drawings made previously. Ofthese, they made 2 directions (left and right) of shadows for 960 and 4 directions for 40. This was because left and right had more variability which required more examples for generating to meet our quality standard while top and bottom directions were fairly consistent.
+The original dataset to train the AI models has been collected from the professionals of a single company who made shadows dedicated to this project. They first prepared 1,000 existing flat-colored line drawings made previously. Ofthese, they made 2 directions (left and right) of shadows for 960 and 4 directions for 40. This was because left and right had more variability which required more examples for generating to meet our quality standard while top and bottom directions were fairly consistent.
 
 This dataset has been used in the two models below:
 1. Initial shadow prediction model: 
