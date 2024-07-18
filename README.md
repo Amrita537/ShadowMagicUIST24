@@ -13,8 +13,8 @@ This dataset has been used in the two models below:
 2. Character semantic segmentation model:
 The process begins with fine-tuning the YOLOv5 segmentation model on a dataset of 614 annotated images to detect semantic segments such as hair, face, cloth, arm, and objects. The model outputs bounding boxes and approximate masks for these segments. To achieve precise semantic segment contours, the approximate masks are replaced with more accurate ones derived from input flat color images, by merging regions with significant overlap. This refined segmentation allows users to selectively adopt shadow suggestions based on the identified scene semantics.
 
+https://github.com/user-attachments/assets/7562aa98-b27c-4313-926f-42520431b9e9
 
-https://github.com/user-attachments/assets/cce113c8-f5c3-4ced-bc7a-a8ddb207dc03
 ![frontend1_2](https://github.com/user-attachments/assets/ba250ca1-4bd1-4b27-aa2f-d488719658fb)
 
 
