@@ -1,10 +1,10 @@
 # ShadowMagic
-This repository contains low resolution training dataset for the project "Stage-by-stage and Step-by-step: Designing Human-AI Collaborative Support for Professionals’ Comic Shadowing". There are N number of flat images and line drawing. For each flat, there are shadow image examples from four light directions (Left, Right, Top, Back). The image resolution is X*Y. 
+This repository contains low resolution dataset example for the project "Stage-by-stage and Step-by-step: Designing Human-AI Collaborative Support for Professionals’ Comic Shadowing". There are 20 flat images and line drawing. For each flat, there are 4 shadow image examples from 4 light directions (Left, Right, Top, Back). The maximum image resolution is 512 * 512.
 
 Paper link --->(Will be updated soon)
 
 The original dataset to train the AI models has been collected from the professionals of a single company who made shadows dedicated to this project. They first prepared 1,000 existing flat-colored line drawings made previously. Of these, they made 2 directions (left and right) of shadows for 960 and 4 directions for 40. This was because left and right had more variability which required more examples for generating to meet our quality standard while top and bottom directions were fairly consistent.
-Here is the contact to get the original dataset -->
+To get more information about the dataset, contact: shong31@gmu.edu
 
 This dataset has been used in the two models below:
 1. Initial shadow prediction model: 
